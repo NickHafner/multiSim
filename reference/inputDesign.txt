@@ -1,0 +1,24 @@
+From (6/14 week meeting)
+
+box
+- position (3 numbers)
+- rotation (4 numbers -- quaternion)
+- children
+    - sphere
+        - rotational joint (or constraint) (how is the box connected to the sphere)
+        - position
+        - rotation
+        - children
+            - box
+                - position
+                - rotation
+            - sphere
+                - position
+                - rotation
+    - cylinder
+        - position
+        - rotation
+
+sphere
+- position
+- rotation
